@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++20 -Wl,--dependency-file=CMakeFiles/C__Man.dir/link.d CMakeFiles/C__Man.dir/main.cpp.o -o C__Man

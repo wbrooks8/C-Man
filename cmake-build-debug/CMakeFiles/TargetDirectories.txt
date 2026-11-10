@@ -1,0 +1,3 @@
+/home/kyle/C++/C-Man/cmake-build-debug/CMakeFiles/C__Man.dir
+/home/kyle/C++/C-Man/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/kyle/C++/C-Man/cmake-build-debug/CMakeFiles/rebuild_cache.dir
