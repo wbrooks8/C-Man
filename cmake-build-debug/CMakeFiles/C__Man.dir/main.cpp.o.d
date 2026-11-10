@@ -206,6 +206,4 @@ CMakeFiles/C__Man.dir/main.cpp.o: /home/kyle/C++/C-Man/main.cpp \
  /usr/include/c++/16/bits/random.tcc /usr/include/c++/16/numeric \
  /usr/include/c++/16/bits/stl_numeric.h \
  /usr/include/c++/16/pstl/glue_numeric_defs.h \
- /usr/include/c++/16/pstl/execution_defs.h /usr/include/c++/16/iostream \
- /usr/include/c++/16/utility /usr/include/c++/16/bits/stl_relops.h \
- /usr/include/c++/16/bits/intcmp.h
+ /usr/include/c++/16/pstl/execution_defs.h /usr/include/c++/16/iostream

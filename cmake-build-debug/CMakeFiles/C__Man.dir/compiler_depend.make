@@ -116,7 +116,6 @@ CMakeFiles/C__Man.dir/main.cpp.o: /home/kyle/C++/C-Man/main.cpp \
   /usr/include/c++/16/bits/functexcept.h \
   /usr/include/c++/16/bits/functional_hash.h \
   /usr/include/c++/16/bits/hash_bytes.h \
-  /usr/include/c++/16/bits/intcmp.h \
   /usr/include/c++/16/bits/invoke.h \
   /usr/include/c++/16/bits/ios_base.h \
   /usr/include/c++/16/bits/istream.tcc \
@@ -174,7 +173,6 @@ CMakeFiles/C__Man.dir/main.cpp.o: /home/kyle/C++/C-Man/main.cpp \
   /usr/include/c++/16/bits/stl_iterator_base_types.h \
   /usr/include/c++/16/bits/stl_numeric.h \
   /usr/include/c++/16/bits/stl_pair.h \
-  /usr/include/c++/16/bits/stl_relops.h \
   /usr/include/c++/16/bits/stl_tempbuf.h \
   /usr/include/c++/16/bits/stl_uninitialized.h \
   /usr/include/c++/16/bits/stl_vector.h \
@@ -256,7 +254,6 @@ CMakeFiles/C__Man.dir/main.cpp.o: /home/kyle/C++/C-Man/main.cpp \
   /usr/include/c++/16/tuple \
   /usr/include/c++/16/type_traits \
   /usr/include/c++/16/typeinfo \
-  /usr/include/c++/16/utility \
   /usr/include/c++/16/vector \
   /usr/include/c++/16/x86_64-pc-linux-gnu/bits/atomic_word.h \
   /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++allocator.h \
@@ -397,12 +394,6 @@ CMakeFiles/C__Man.dir/main.cpp.o:
 
 /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++locale.h:
 
-/usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++allocator.h:
-
-/usr/include/c++/16/bits/intcmp.h:
-
-/usr/include/c++/16/bits/move.h:
-
 /usr/include/c++/16/bits/istream.tcc:
 
 /usr/include/c++/16/cerrno:
@@ -432,10 +423,6 @@ CMakeFiles/C__Man.dir/main.cpp.o:
 /usr/include/c++/16/bits/exception_ptr.h:
 
 /usr/include/c++/16/bits/chrono_io.h:
-
-/usr/include/c++/16/x86_64-pc-linux-gnu/bits/atomic_word.h:
-
-/usr/include/c++/16/array:
 
 /usr/include/c++/16/istream:
 
@@ -522,6 +509,14 @@ CMakeFiles/C__Man.dir/main.cpp.o:
 /usr/include/ctype.h:
 
 /usr/include/c++/16/bits/stl_tempbuf.h:
+
+/usr/include/c++/16/bits/localefwd.h:
+
+/usr/include/bits/types/time_t.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o:
+
+/usr/include/c++/16/bits/ostream.tcc:
 
 /usr/include/bits/types/clock_t.h:
 
@@ -639,8 +634,6 @@ CMakeFiles/C__Man.dir/main.cpp.o:
 
 /usr/include/c++/16/bits/ostream_insert.h:
 
-/usr/include/c++/16/bits/stl_relops.h:
-
 /usr/include/bits/pthread_stack_min-dynamic.h:
 
 /usr/include/c++/16/cctype:
@@ -697,14 +690,6 @@ CMakeFiles/C__Man.dir/main.cpp.o:
 
 /usr/include/c++/16/clocale:
 
-/usr/include/bits/types/time_t.h:
-
-/usr/include/c++/16/bits/localefwd.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o:
-
-/usr/include/c++/16/bits/ostream.tcc:
-
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stddef.h:
 
 /usr/include/bits/stdint-uintn.h:
@@ -722,6 +707,8 @@ CMakeFiles/C__Man.dir/main.cpp.o:
 /usr/include/c++/16/charconv:
 
 /usr/include/c++/16/bits/monostate.h:
+
+/usr/include/c++/16/bits/move.h:
 
 /usr/include/c++/16/bits/nested_exception.h:
 
@@ -851,8 +838,6 @@ CMakeFiles/C__Man.dir/main.cpp.o:
 
 /usr/include/c++/16/bits/ranges_util.h:
 
-/usr/include/c++/16/utility:
-
 /usr/include/c++/16/concepts:
 
 /usr/include/c++/16/bits/basic_ios.tcc:
@@ -966,3 +951,9 @@ CMakeFiles/C__Man.dir/main.cpp.o:
 /usr/include/c++/16/typeinfo:
 
 /usr/include/c++/16/vector:
+
+/usr/include/c++/16/array:
+
+/usr/include/c++/16/x86_64-pc-linux-gnu/bits/atomic_word.h:
+
+/usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++allocator.h:
