@@ -2,6 +2,8 @@
 #include <iostream>
 #include <vector>
 
+constexpr int guesses{6};
+
 namespace WordList {
 const std::vector<const char *> words{"mystery",   "broccoli",  "account",
                                       "almost",    "spaghetti", "opinion",
@@ -12,7 +14,7 @@ static std::string_view selectAWord() {
 }
 } // namespace WordList
 
-static char userInputLetter() {
+static char getUserInputLetter() {
   bool valid{false};
   while (!valid) {
     std::cout << "Enter your next letter: ";
@@ -37,7 +39,7 @@ static void wordAsUnderscores(const std::string_view &input,
   }
 }
 
-static void createGuessLeftVisual(const int guessesLeft, std::string &output) {
+static void createGuessLeftVisual(const int &guessesLeft, std::string &output) {
   for (int i{0}; i < guessesLeft; ++i) {
     output.push_back('+');
   }
@@ -55,8 +57,8 @@ static void playGame() {
   std::string wordAsUnderscore{};
   wordAsUnderscores(currentWord, wordAsUnderscore);
   char userLetter{};
-  int guessesLeft{6};
   std::string guessesLeftVisual{};
+  int guessesLeft{guesses};
   createGuessLeftVisual(guessesLeft, guessesLeftVisual);
 
   introduction();
@@ -65,7 +67,7 @@ static void playGame() {
     std::cout << "The word: " << wordAsUnderscore
               << "   Wrong guesses: " << guessesLeftVisual << std::endl;
 
-    userLetter = userInputLetter();
+    userLetter = getUserInputLetter();
 
     if (currentWord.find(userLetter) != std::string_view::npos) {
       std::cout << "Yes, '" << userLetter << "' is in the word!" << std::endl;
